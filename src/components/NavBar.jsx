@@ -20,7 +20,13 @@ function NavBar() {
         if (width > 700) {
             setSearchEnable(true);
         }
-    }, [width]);
+        
+        if (width > 700 && inputValue !== ''){
+            setInputValue('');
+            
+        }
+
+    }, [width, inputValue]);
 
 
     return (
@@ -42,7 +48,7 @@ function NavBar() {
                         </NavLink>
                     </div>
                     <div className='input-group'>
-                        <HiSearch onClick={() => setSearchEnable(!searchEnable)} fontSize={50} id={side ? "searchButtonWhite" : "searchButtonBlack"} />
+                        <HiSearch onClick={() => setSearchEnable(!searchEnable)} fontSize={width > 550 ? 50 : 30} id={side ? "searchButtonWhite" : "searchButtonBlack"} />
                         <input type="text" placeholder="Search For Duels By Duelists" onChange={(e) => setInputValue(e.target.value)} />
                         <HiSearch fontSize={21} id="search" />
                         <div id="Side-switcher" onClick={() => setSide(!side)}>

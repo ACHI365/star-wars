@@ -11,7 +11,7 @@ nav {
 nav h1 {
     cursor: pointer;
     color: #fff;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 nav a {
@@ -145,6 +145,117 @@ span #HomeLight:hover,
 .searchBar, .disable {
     display: none;
 }
+@media screen and (max-width:350px){
+    html{
+        font-size: xx-small;
+    }
+    nav span {
+        cursor: pointer;
+        margin-left: 20px;
+        font-size: .85rem;
+        transition: 0.5s;
+        font-size: 18px;
+    }
+    nav h1{
+        margin-left: 1px;
+    }
+
+    nav span {
+        cursor: pointer;
+        margin-left: 20px;
+        font-size: .85rem;
+        transition: 0.5s;
+        font-size: 18px;
+    }
+
+    #Side-switcher {
+        position: relative;
+        margin-right: 40px;
+        background-color: #413E44;
+        width: 40px;
+        height: 20px;
+        border-radius: 20px;
+    }
+    
+    #Side-switcher-mover {
+        position: absolute;
+        left: 5px;
+        top: 2.5px;
+        background-color: #fff;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        transition: .6s;
+    }
+    
+    #Side-switcher-moved {
+        position: absolute;
+        background-color: #fff;
+        left: 20px;
+        top: 2.5px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        transition: .6s;
+    }
+
+    .input-group input, .input-group #search{
+        display: none;
+    }
+
+}
+@media screen and (max-width:550px) and (min-width: 350px) {
+    html {
+        font-size: smaller;
+    }
+
+    nav h1{
+        margin-left: 1px;
+    }
+
+    nav span {
+        cursor: pointer;
+        margin-left: 20px;
+        font-size: .85rem;
+        transition: 0.5s;
+        font-size: 18px;
+    }
+
+    #Side-switcher {
+        position: relative;
+        margin-right: 40px;
+        background-color: #413E44;
+        width: 40px;
+        height: 20px;
+        border-radius: 20px;
+    }
+    
+    #Side-switcher-mover {
+        position: absolute;
+        left: 5px;
+        top: 2.5px;
+        background-color: #fff;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        transition: .6s;
+    }
+    
+    #Side-switcher-moved {
+        position: absolute;
+        background-color: #fff;
+        left: 20px;
+        top: 2.5px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        transition: .6s;
+    }
+
+    .input-group input, .input-group #search{
+        display: none;
+    }
+}
 
 
 @media screen and (max-width:700px) {
@@ -191,7 +302,7 @@ span #HomeLight:hover,
     }
 
     #secondaryColor input{
-        background-color: rgba(47, 71, 94, 0.203);
+        background-color: rgba(237, 243, 250, 0.585);
     }
 
     .searchBar input[type='text'] {
