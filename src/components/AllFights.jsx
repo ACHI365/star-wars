@@ -45,7 +45,7 @@ function AllFights() {
             })}
             <div className={!trailer ? "video-container" : "hide"}>
               <iframe ref={videoRef} width={currWidth > 1000 ? '1000px' : (currWidth > 500 ? '500px' : '300px')} height={'500px'}
-                src={"https://www.youtube.com/embed/" + link} title="youtube" allowFullScreen></iframe>
+                src={trailer ? '' : "https://www.youtube.com/embed/" + link} title="youtube" allowFullScreen></iframe>
               <AiOutlineClose id={!trailer ? 'Exit1' : 'Nothing'} className={side ? 'DarkTheme' : 'LightThemeClose'} fontSize={55} cursor="pointer" onClick={() => setTrailer(true)} />
             </div>
           </div>

@@ -14,6 +14,7 @@ function NavBar() {
     const [searchEnable, setSearchEnable] = useState(true);
     const [width, setWidth] = useState(window.innerWidth);
     const [inputValue, setInputValue] = useState('');
+    const [changeValue, setChangeValue] = useState(false);
 
     useEffect(() => {
         window.addEventListener("resize", () => setWidth(window.innerWidth));
@@ -21,16 +22,17 @@ function NavBar() {
             setSearchEnable(true);
         }
         
-        if (width > 700 && inputValue !== ''){
-            setInputValue('');
-            
+        if ((width > 700 || width <= 700) && inputValue !== ''){
+            setChangeValue(true);
         }
+        else
+            setChangeValue(false);
 
-    }, [width, inputValue]);
+    }, [width, inputValue]);    
 
 
     return (
-        <Container.Provider value={{ side, inputValue }}>
+        <Container.Provider value={{ side, inputValue, width }}>
             <div className='App'>
                 <nav id={side ? 'navBarDark' : 'navBarLight'}>
                     <div className='nav-options'>
@@ -49,7 +51,7 @@ function NavBar() {
                     </div>
                     <div className='input-group'>
                         <HiSearch onClick={() => setSearchEnable(!searchEnable)} fontSize={width > 550 ? 50 : 30} id={side ? "searchButtonWhite" : "searchButtonBlack"} />
-                        <input type="text" placeholder="Search For Duels By Duelists" onChange={(e) => setInputValue(e.target.value)} />
+                        <input type="text" value={changeValue ? inputValue : ''} placeholder="Search For Duels By Duelists" onChange={(e) => setInputValue(e.target.value)} />
                         <HiSearch fontSize={21} id="search" />
                         <div id="Side-switcher" onClick={() => setSide(!side)}>
                             <div id={side ? 'Side-switcher-mover' : 'Side-switcher-moved'}></div>
@@ -57,7 +59,7 @@ function NavBar() {
                     </div>
                 </nav>
                 <div className={searchEnable ? 'disable' : 'searchBar'} id={side ? "mainColor" : "secondaryColor"}>
-                    <input type="text" placeholder="Search For Duels By Duelists" onChange={(e) => setInputValue(e.target.value)} />
+                    <input type="text"  value={changeValue ? inputValue : ''} placeholder="Search For Duels By Duelists" onChange={(e) => setInputValue(e.target.value)} />
                 </div>
                 <Routes>
                     <Route path='' element={<AllFights />} />
