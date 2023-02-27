@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden;
+}
+.movies-container{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mainBgColor, .mainBgColor::before, .mainBgColor::after{
+    background-image: linear-gradient(
+        115deg,
+            rgba(9, 2, 16, 0.833),
+            rgba(55, 9, 9, 0.7)
+    ),
+    url(../Background/DarkSide3.jpg);
+    background-color:#0c1e25;
+    color: white;
+    width: 100%;
+    transition: 0.5s;
+    padding-bottom: 50%;
+}
+.secondaryBgColor{
+    background-image: linear-gradient(
+        115deg,
+            rgba(9, 2, 16, 0.833),
+            rgba(9, 11, 55, 0.7)
+    ),
+    url(../Background/Force.jpg);
+    background-color: #fff;
+    color: white;
+    width: 100%;
+    transition: 0.5s;
+    padding-bottom: 50%;
+}
+.movies-container img{
+    width: 350px;
+    height: 550px;
+    margin: 25px 0px 4px 15px;
+    border-radius: 18px;
+}
+.mainColor{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+#Nothing{
+    display: none;
+}
+.secondaryColor{
+    color: #ff206e;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+.movies-container h3, .movies-container img{
+    cursor: pointer;
+    transition: .7s;
+}
+
+.movies-container img:hover{
+    transform: scale(1.05);
+}
+#container{
+    position: relative;
+}
+#hide{
+    display: none;
+}
+#smaller-Text{
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+#playIcon{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    visibility: visible;
+    z-index: 100;
+    cursor: pointer;
+}
+#Exit1{
+    position: absolute;
+    margin-left: 65%;
+    margin-bottom: 570px;
+    z-index: 999;
+}
+#Nothing{
+    color: green;
+}
+#NoContainer{
+    opacity: 0.35;
+}
+.DarkTheme{
+    color:#fff;
+}
+.LightThemeClose{
+    color: #ff206e;
+}
+
+.hide{
+    display: none;
+}
+
+.video-container{
+    position: fixed;
+    width: 100%; height: 80%;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+
+
+/* .btn{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: rgb(255,122,0);
+    color: white;
+    border-radius: 40px;
+    box-shadow: 0 1px 40px rgba(255,122,0,0.4);
+}
+
+.video-container{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.video-container video{
+    width: 90%;
+    max-width: 800px;
+    transform: scale(0);
+    outline: none;
+    transform: all 0.3s;
+} */

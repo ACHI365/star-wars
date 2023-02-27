@@ -1,0 +1,129 @@
+[
+    {
+        "id": 1,
+        "title": "obi-Wan vs Darth vader",
+        "img": "/Movies/star-wars-obi-wan-darth-vader-rematch.jpg",
+        "link": "_V8oM4hXA58"
+    },
+    {
+        "id": 2,
+        "title": "obi-Wan vs Anakin",
+        "img": "/Movies/AnakinVsObiMustafar.jpg",
+        "link": "onRnL6MBunU"
+    },
+    {
+        "id": 3,
+        "title": "qui Gon vs Maul",
+        "img": "/Movies/tatooineDuel.jpg",
+        "link": "JMlUmUlu9M0"
+    },
+    {
+        "id": 4,
+        "title": "obi-Wan and qui Gon vs Maul",
+        "img": "/Movies/Obi&QuiVSMaul.jpg",
+        "link": "3mJFjNu51IQ"
+    },
+    {
+        "id": 5,
+        "title": "Anakin,obi-Wan,Yoda vs Dooku",
+        "img": "/Movies/yodaVsDooku.jpg",
+        "link": "rlRJLcy8NsA"
+    },
+    {
+        "id": 6,
+        "title": "Anakin and obi Wan vs Dooku",
+        "img": "/Movies/anakinVsDooku.jpg",
+        "link": "HLlf5bC1wxg"
+    },
+    {
+        "id": 7,
+        "title": "obi Wan vs Grievous",
+        "img": "/Movies/ObiVsGeneral.jpg",
+        "link": "d0oknb6fX04"
+    },
+    {
+        "id": 8,
+        "title": "Windu vs Palpatine",
+        "img": "/Movies/WinduVsPalp.jpg",
+        "link": "4kmaehtqacw"
+    },
+    {
+        "id": 9,
+        "title": "Yoda vs Sidious",
+        "img": "/Movies/YodaPalpsduel.jpg",
+        "link": "9Hqwn8BBRt4"
+    },
+    {
+        "id": 10,
+        "title": "Luke vs vader (Cave)",
+        "img": "/Movies/Luke-trial.jpg",
+        "link": "_qiDuHCKSc8"
+    },
+    {
+        "id": 11,
+        "title": "Luke vs vader (1st)",
+        "img": "/Movies/Luke1VsVader.jpg",
+        "link": "YRcUdD5nthc"
+    },
+    {
+        "id": 12,
+        "title": "Luke vs vader (2nd)",
+        "img": "/Movies/Luke2VsVader.jpg",
+        "link": "cjKDEMt2DXc"
+    },
+    {
+        "id": 13,
+        "title": "Luke vs Leia",
+        "img": "/Movies/LukeVsLeia.jpg",
+        "link": "J4cl4BpBf2Q"
+    },
+    {
+        "id": 14,
+        "title": "Finn vs FN-2199",
+        "img": "/Movies/FinnDuel.jpg",
+        "link": "hODJV5YcxhM"
+    },
+    {
+        "id": 15,
+        "title": "Finn and Rey vs Kylo",
+        "img": "/Movies/Finn&ReyVsKylo.jpg",
+        "link": "FJTz-ahXyyI"
+    },
+    {
+        "id": 16,
+        "title": "Rey and Kylo vs Praetorians",
+        "img": "/Movies/ReyVsKylo.jpg",
+        "link": "ZYlTTaYi1_Y"
+    },
+    {
+        "id": 17,
+        "title": "Luke vs Kylo",
+        "img": "/Movies/LukeVsKylo.jpg",
+        "link": "37SlIgBvTG4"
+    },
+    {
+        "id": 18,
+        "title": "Rey vs Kylo (1st)",
+        "img": "/Movies/Kylo&Ren.jpg",
+        "link": "yqNb_P6-_GE"
+    },
+    {
+        "id": 19,
+        "title": "Rey vs Dark Rey",
+        "img": "/Movies/ReyVsDark.jpg",
+        "link": "31EZOtBUaiM"
+    },
+    {
+        "id": 20,
+        "title": "Rey vs Kylo (2nd)",
+        "img": "/Movies/Kylo2&Ren.jpg",
+        "link": "nBnJvbQpxZ4"
+    },
+    {
+        "id": 21,
+        "title": "Ben Solo vs KoR",
+        "img": "/Movies/KyloVsKoR.jpg",
+        "link": "hpxUGulsl7Y"
+    }
+
+]
