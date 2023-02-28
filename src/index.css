@@ -1,6 +1,6 @@
-/* *{
-  cursor: url(altlink.cur), auto;
-} */
+*{
+  cursor: url(./components/altlink.cur), auto;
+}
 
 @font-face {
   font-family: "StarWars";
