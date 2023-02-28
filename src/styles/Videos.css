@@ -56,7 +56,6 @@ body{
     font-size: 1rem;
 }
 .movies-container h3, .movies-container img{
-    cursor: pointer;
     transition: .7s;
 }
 
@@ -81,7 +80,6 @@ body{
     left: 20px;
     visibility: visible;
     z-index: 100;
-    cursor: pointer;
 }
 #Exit1{
     position: absolute;

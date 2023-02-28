@@ -1,3 +1,11 @@
+:root{
+    --url: url("../components/altlink.cur");
+}
+
+*{
+    cursor: var(--url), auto;
+}
+
 nav {
     width: 100vw;
     display: flex;

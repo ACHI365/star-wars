@@ -1,3 +1,7 @@
+/* *{
+  cursor: url(altlink.cur), auto;
+} */
+
 @font-face {
   font-family: "StarWars";
   src: url(../public/Fonts/Starjedi.ttf);

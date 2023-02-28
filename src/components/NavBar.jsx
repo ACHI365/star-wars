@@ -29,7 +29,13 @@ function NavBar() {
             setChangeValue(false);
 
     }, [width, inputValue]);    
+    useEffect(() =>{
+        const color = getComputedStyle(document.documentElement).getPropertyValue('--url');
 
+        console.log(color)
+        // const url = 'url("../components/altlink.cur")'; 
+        // document.documentElement.style.setProperty('--url', url);
+    }, [side])
 
     return (
         <Container.Provider value={{ side, inputValue, width }}>
@@ -73,4 +79,4 @@ function NavBar() {
     )
 }
 
-export default NavBar
+export default NavBar;
